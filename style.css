@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;900&display=swap');
+
+/* *,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9fbfc;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+.inner_header { 
+  position: fixed;
+  width: 100%;
+}
+.navBarItems{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-area {
+  width: 50%;
+}
+
+#menu_toggler {
+  display: none;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+#menu_toggler i {
+  color: black;
+  font-size: 35px;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+}
+
+.menu ul li {
+  padding: 0 18px;
+}
+
+.menu ul li a {
+  font-size: 16px;
+  line-height: 44px;
+  color: #eecb08d0;
+  font-weight: 400;
+  transition: 0.3s;
+}
+
+.menu ul li a:hover {
+  color: orange;
+}
+
+.trail_btn {
+  width: 170px;
+  height: 57px;
+  border-radius: 30px;
+  background-color: #140664;
+  border: 2px solid burlywood;
+  outline: none;
+  font-size: 16px;
+  line-height: 44px;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.trail_btn:hover {
+   background-color: orangered;
+  border: 2px solid rgb(23, 55, 116);
+  transition: 0.7s;
+}
+#banner {
+  height: 100vh;
+  font-size: 80;
+  color: #ffffff;
+  background-image: url('G:\WEB/sakib.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left bottom;
+}
+
+.inner_banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.banner_text h2 {
+  margin-top: 300px;
+  margin-bottom: 20px;
+  font-size: 60px;
+  line-height: 100px;
+  color: #f6f7f8;
+
+}
+
+.pricing_title p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #616368;
+  font-weight: 400;
+  text-align: center;
+  max-width: 637px;
+  margin: auto;
+  padding: 36px 0;
+} 
+.pricing_title h1 {
+  text-align: center;
+  max-width: 637px;
+  margin: auto;
+  padding: 36px 0;
+} 
+.inner_jackpot-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.inner_jackpot-2 div {
+  max-width: 500px;
+}
+
+
+.jackpot_first_div img{
+    width: 500px;
+    height: 20;
+
+  }
+.jackpot_second_div img{
+  width: 500px;
+  height: 20;
+}
+.inner_jackpot-2 div p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #616368;
+  font-weight: 400;
+}
+.jackpot_frist_div {
+  margin: 0 120px;
+}
+
+.jackpot_second_div {
+  margin: 0 120px;
+}
+
+.jackpot_first_div h2 {
+  font-size: 20px;
+  line-height: 58px;
+  font-weight: 600;
+  text-align: center;
+
+}
+
+.jackpot_second_div h2 {
+  font-size: 20px;
+  line-height: 58px;
+  font-weight: 600;
+  text-align: center;
+}
+#footer {
+
+height: 100px;
+  background-color: #09142eab;
+}
+
+.footer_area {
+  padding-top: 30px;
+}
+
+.footer_menu ul {
+  justify-content: center;
+  align-items: center;
+  display: inline;
+  display: flex;
+
+}
+
+.footer_menu ul li {
+  padding: 0 20px;
+}
+
+.footer_menu ul li a {
+  font-size: 16px;
+  line-height: 44px;
+  color: #ffffff;
+  font-weight: 400;
+
+}
+
+.footer_menu ul {
+  padding: 20px 0;
+}
+
+.footer_menu img {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.footer_icon h3 .fab {
+  font-size: 36px;
+  letter-spacing: 23px;
+  line-height: 44px;
+  color: #273043;
+  font-weight: 400;
+}
+
+.footer_icon h3 .fa-slack-hash {
+  color: #fff;
+}
+
+.footer_icon h3 {
+  text-align: center;
+}
+
+.inner_footer p {
+  font-weight: 400;
+  text-align: center;
+  padding-top: 90px;
+  font-size: 14px;
+  line-height: 44px;
+  color: #f9fbfc;
+
+}
